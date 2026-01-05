@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cinema Seat Reservation | Hayati</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cinema.css">
+</head>
+<body>
+
+<header>
+        <div class="header">
+           <a href="./index.html" class="logo">
+               <span class="nav_logo"></span>
+           </a>
+        
+           <div class="nav_header">
+               <a href="../index.html" class="nav_menu">
+                    <p>Home</p>
+                </a>
+               
+               <a href="../shareR&C/share_R&C.html" class="nav_menu">
+                  <p>Ride&Cargo</p>
+               </a>
+
+               <a href="../Airline/airline.html" class="nav_menu">
+                  <p>Air Tickets</p>
+               </a>
+
+               <a href="../Bus&Train/bus&train.html" class="nav_menu">
+                  <p>Bus & Train</p>
+               </a>
+
+               <a href="./cinema.html" id="nav_home">
+                  <p>Cinema</p>
+               </a>
+
+               <a href="../About/about.html" class="nav_menu">
+                  <p>About</p>
+               </a>
+           </div>
+        </div>
+    </header>
+
+    <!-- Main Body Started After Navbar Header -->
+<section class="hero">
+    <div class="hero-content">
+        <h1>Cinema Seat Reservation</h1>
+        <p>
+            Browse movies, choose show timings, select seats and
+            reserve tickets easily. This module demonstrates a
+            structured cinema booking system.
+        </p>
+    </div>
+</section>
+
+
+<section class="section">
+    <div class="container">
+        <h2>Now Showing</h2>
+        <p class="desc">
+            Select a movie currently running in cinemas.
+        </p>
+
+        <div class="movie-grid">
+
+            <div class="movie-card">
+                <img src="./action_M.jfif" alt="Movie" style="height: 250px;">
+                <h3>Action Movie</h3>
+                <p>Action · 2h 30m</p>
+            </div>
+
+            <div class="movie-card">
+                <img src="./drama.jfif" alt="Movie" style="height: 250px;">
+                <h3>Drama Movie</h3>
+                <p>Drama · 2h 10m</p>
+            </div>
+
+            <div class="movie-card">
+                <img src="./comedy.jfif" alt="Movie" style="height: 250px;">
+                <h3>Comedy Movie</h3>
+                <p>Comedy · 1h 50m</p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<section class="section light">
+    <div class="container">
+        <h2>Reserve Your Seats</h2>
+        <p class="desc">
+            Complete the form below to reserve cinema seats.
+            Inputs are arranged in layers for clarity.
+        </p>
+
+        <form class="reservation-form">
+
+
+            <div class="input-layer">
+
+                <div class="input-box">
+                    <label>Select Movie</label>
+                    <select>
+                        <option>Choose Movie</option>
+                        <option>Action Movie</option>
+                        <option>Drama Movie</option>
+                        <option>Comedy Movie</option>
+                    </select>
+                </div>
+
+                <div class="input-box">
+                    <label>Select Cinema</label>
+                    <select>
+                        <option>Choose Cinema</option>
+                        <option>Cinepax</option>
+                        <option>Nueplex</option>
+                        <option>Universal Cinemas</option>
+                    </select>
+                </div>
+
+                <div class="input-box">
+                    <label>Show Date</label>
+                    <input type="date">
+                </div>
+
+                <div class="input-box">
+                    <label>Show Time</label>
+                    <select>
+                        <option>12:00 PM</option>
+                        <option>03:00 PM</option>
+                        <option>06:30 PM</option>
+                        <option>09:00 PM</option>
+                    </select>
+                </div>
+
+            </div>
+
+            <div class="input-layer">
+
+                <div class="input-box">
+                    <label>Seat Category</label>
+                    <select>
+                        <option>Standard</option>
+                        <option>Premium</option>
+                        <option>VIP</option>
+                    </select>
+                </div>
+
+                <div class="input-box">
+                    <label>Number of Seats</label>
+                    <input type="number" placeholder="Enter seats">
+                </div>
+
+                <div class="input-box">
+                    <label>Ticket Price (PKR)</label>
+                    <input type="text" placeholder="Auto calculated">
+                </div>
+
+                <div class="input-box">
+                    <label>Payment Method</label>
+                    <select>
+                        <option>Cash</option>
+                        <option>Debit / Credit Card</option>
+                        <option>Mobile Wallet</option>
+                    </select>
+                </div>
+
+            </div>
+
+            <button class="btn primary">Confirm Reservation</button>
+
+        </form>
+    </div>
+</section>
+
+
+<section class="section">
+    <div class="container">
+        <h2>Why Book with Hayati?</h2>
+
+        <div class="info-grid">
+            <div class="info-card">
+                <h3>Easy Booking</h3>
+                <p>Simple and clear seat reservation process.</p>
+            </div>
+            <div class="info-card">
+                <h3>Multiple Shows</h3>
+                <p>Choose from different timings.</p>
+            </div>
+            <div class="info-card">
+                <h3>Seat Categories</h3>
+                <p>Select seats based on comfort.</p>
+            </div>
+            <div class="info-card">
+                <h3>Academic Design</h3>
+                <p>Perfect for ICT & PF projects.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<footer>
+        <div class="footer_section_1">
+            <center>
+                <h2 class="footer_1_head">Ready to Get Started?</h2>
+            </center>
+
+            <center>
+                <p class="footer_1_para">Explore our services and discover how Hayati can simplify your reservation planning</p>
+            </center>
+            <div class="footer_1_buttons">
+                <a href="../shareR&C/share_R&C.html" class="footer_button_1">Share Ride & Cargo</a>
+                <a href="../Airline/airline.html" class="footer_button_2">View Air tickets</a>
+                <a href="../Bus&Train/bus&train.html" class="footer_button_1">Reserve bus & train</a>
+                <a href="../Cinema/cinema.html" class="footer_button_2">Book Cinema Seat</a>
+            </div>
+        </div>
+
+        <div class="footer_section_2">
+            <div class="footer_box">
+                 <div class="footer_logo"></div>
+                 <p class="footer_2_para">Your unified hub for all reservation information in one place.</p>
+            </div>
+
+            <div class="footer_box">
+                 <div class="box_2_head">
+                    <b>Services</b>
+                 </div>
+
+                 <a href="../shareR&C/share_R&C.html" class="footer_services">Share Ride&Cargo</a>
+                 <a href="../Airline/airline.html" class="footer_services">Air tickets</a>
+                 <a href="../Bus&Train/bus&train.html" class="footer_services">Bus & Trains</a>
+                 <a href="../Cinema/cinema.html" class="footer_services">Cinema</a>
+
+            </div>
+
+            <div class="footer_box">
+                <div class="box_2_head">
+                    <b>Quick Links</b>
+                 </div>
+
+                 <a href="../About/about.html" class="footer_services">About</a>
+                 <a href="../About/about.html" class="footer_services">Contacts</a>
+            </div>
+
+            <div class="footer_box">
+                <div class="box_2_head">
+                    <b>Information</b>
+                 </div>
+                 <div class="footer_2_para">
+                        Hayati is launching soon to change your hayat. Now you will reserve your seat, travel with new experience and Cargo your lugage with one click either it's in plane, bus, train or cinema.
+                    </div>
+            </div>
+        </div>
+        <br><br>
+        <center><hr style="background-color: #475467; height: 1px; border: none; width: 90%;"></center>
+        
+        <div class="last_line">@ 2025 Hayati. All rights reserved.</div>
+    </footer>
+
+</body>
+</html>
